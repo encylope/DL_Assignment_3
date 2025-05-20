@@ -18,8 +18,13 @@ WandB for hyperparameter tuning
 
 Visualization of model outputs 
 
+## It contains
+
 A3.ipynb -	Main Jupyter Notebook for training and evaluation
+
 pred_attention.csv	- Model predictions with attention
+
 pred_vanilla.csv	- Model predictions without attention
+
 README.md	- This documentation file
 
