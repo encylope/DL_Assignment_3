@@ -75,12 +75,13 @@ To visualize the model outputs, use the following code:
 
     visualize_model_outputs(model, n=15)
 
-To visualise the model connectivity, use the following code:
-# Sample some words from the test data
+# To visualise the model connectivity, use the following code:
+
+#Sample some words from the test data
 
     test_words = get_test_words(5)
 
-# Visualise connectivity for "test_words"
+#Visualise connectivity for "test_words"
 
 for word in test_words:
 
