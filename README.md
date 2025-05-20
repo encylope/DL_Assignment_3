@@ -1,5 +1,5 @@
 # DL_Assignment_3
-Link to the report : https://api.wandb.ai/links/na21b075-indian-institute-of-technology-madras/qqmn8abm
+Link to the report : https://api.wandb.ai/links/na21b075-indian-institute-of-technology-madras/ir3b4gq5
 
 Link to the Github repo: https://github.com/encylope/DL_Assignment_3
 
