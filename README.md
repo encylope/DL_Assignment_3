@@ -33,10 +33,9 @@ Run the notebook cell by cell.
 To run model on test data the followin code executed
 
          model = Test_Model(lang="hi",embed_dim=256,enc_layers=3,dec_layers=3,type_layer="lstm",units=256,dropout=0.2,attention=True)     
-To run the model with WandB sweep, use the following code:
+# To run the model with WandB sweep, use the following code:
 
-# Creating the WandB config
-
+    #Creating the WandB config
      sweep_config = {
            "name": "Sweep_Assignment3",
            "method": "random",
@@ -70,21 +69,16 @@ To run the model with WandB sweep, use the following code:
                  }
              }
          }
-
-To visualize the model outputs, use the following code:
+# To visualize the model outputs, use the following code:
 
     visualize_model_outputs(model, n=15)
 
 # To visualise the model connectivity, use the following code:
 
-#Sample some words from the test data
-
+    #Sample some words from the test data
     test_words = get_test_words(5)
-
-#Visualise connectivity for "test_words"
-
-for word in test_words:
-
+    #Visualise connectivity for "test_words"
+    for word in test_words:
     visualise_connectivity(model, word, activation="scaler")
 
 
