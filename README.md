@@ -30,7 +30,7 @@ README.md	- This documentation file
 
 Run the notebook cell by cell.
 
-To run model on test data the followin code executed
+# To run model on test data the followin code executed
 
          model = Test_Model(lang="hi",embed_dim=256,enc_layers=3,dec_layers=3,type_layer="lstm",units=256,dropout=0.2,attention=True)     
 # To run the model with WandB sweep, use the following code:
